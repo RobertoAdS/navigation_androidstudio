@@ -13,7 +13,7 @@ class FirstFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val view = inflater.inflate(R.layout.fragment_frist, container, false)
+        val view = inflater.inflate(R.layout.fragment_first, container, false)
 
         view.setOnClickListener {
             Navigation.findNavController(view).navigate(R.id.action_firstFragment_to_secondFragment)

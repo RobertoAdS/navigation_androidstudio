@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/tela1">
+   <fragment
+       android:id="@+id/tela1"
+       android:name="com.example.myapplication.FirstFragment"
+       android:label="fragment_first"
+       tools:layout="@layout/fragment_first">
+      <action
+          android:id="@+id/action_tela1_to_tela2"
+          app:destination="@id/tela2" />
+   </fragment>
+   <fragment
+       android:id="@+id/tela2"
+       android:name="com.example.myapplication.SecondFragment"
+       android:label="fragment_second"
+       tools:layout="@layout/fragment_second" >
+      <action
+          android:id="@+id/action_secondFragment_to_firstFragment"
+          app:destination="@id/tela1" />
+   </fragment>
+
+</navigation>

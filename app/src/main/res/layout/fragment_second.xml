@@ -8,11 +8,12 @@
     >
 
     <TextView
+        android:id="@+id/tela2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="200dp"
         android:textSize="200dp"
         android:textColor="@color/material_dynamic_neutral_variant100"
-        android:text=""/>
+        android:text="@string/tela2"/>
 </FrameLayout>
