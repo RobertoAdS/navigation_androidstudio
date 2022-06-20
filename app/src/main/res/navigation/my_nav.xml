@@ -10,16 +10,16 @@
        android:label="fragment_first"
        tools:layout="@layout/fragment_first">
       <action
-          android:id="@+id/action_tela1_to_tela2"
-          app:destination="@id/tela2" />
+          android:id="@+id/action_tela1_to_secondFragment"
+          app:destination="@id/secondFragment" />
    </fragment>
    <fragment
-       android:id="@+id/tela2"
+       android:id="@+id/secondFragment"
        android:name="com.example.myapplication.SecondFragment"
        android:label="fragment_second"
        tools:layout="@layout/fragment_second" >
       <action
-          android:id="@+id/action_secondFragment_to_firstFragment"
+          android:id="@+id/action_secondFragment_to_tela1"
           app:destination="@id/tela1" />
    </fragment>
 
