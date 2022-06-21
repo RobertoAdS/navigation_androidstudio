@@ -2,4 +2,10 @@
     <string name="app_name">My Application</string>
     <string name="tela1">1</string>
     <string name="tela2">2</string>
+    <string name="tela3">3</string>
+    <string name="tela4">4</string>
+    <string name="tela5">5</string>
+    <string name="tela6">6</string>
+    <string name="paraTela2">tela2</string>
+    <string name="paraTela3">tela3</string>
 </resources>

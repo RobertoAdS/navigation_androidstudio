@@ -12,6 +12,9 @@
       <action
           android:id="@+id/action_tela1_to_secondFragment"
           app:destination="@id/secondFragment" />
+      <action
+          android:id="@+id/action_tela1_to_thirdFragment"
+          app:destination="@id/thirdFragment" />
    </fragment>
    <fragment
        android:id="@+id/secondFragment"
@@ -19,7 +22,39 @@
        android:label="fragment_second"
        tools:layout="@layout/fragment_second" >
       <action
-          android:id="@+id/action_secondFragment_to_tela1"
+          android:id="@+id/action_secondFragment_to_fourFragment"
+          app:destination="@id/fourFragment" />
+   </fragment>
+   <fragment
+       android:id="@+id/thirdFragment"
+       android:name="com.example.myapplication.ThirdFragment"
+       android:label="ThirdFragment" >
+      <action
+          android:id="@+id/action_thirdFragment_to_fifthFragment"
+          app:destination="@id/fifthFragment" />
+   </fragment>
+   <fragment
+       android:id="@+id/fifthFragment"
+       android:name="com.example.myapplication.FifthFragment"
+       android:label="FifthFragment" >
+      <action
+          android:id="@+id/action_fifthFragment_to_sixFragment"
+          app:destination="@id/sixFragment" />
+   </fragment>
+   <fragment
+       android:id="@+id/fourFragment"
+       android:name="com.example.myapplication.FourFragment"
+       android:label="FourFragment" >
+      <action
+          android:id="@+id/action_fourFragment_to_sixFragment"
+          app:destination="@id/sixFragment" />
+   </fragment>
+   <fragment
+       android:id="@+id/sixFragment"
+       android:name="com.example.myapplication.SixFragment"
+       android:label="SixFragment" >
+      <action
+          android:id="@+id/action_sixFragment_to_tela1"
           app:destination="@id/tela1" />
    </fragment>
 
